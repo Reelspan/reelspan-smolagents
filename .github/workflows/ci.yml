@@ -1,0 +1,23 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      # until `reelspan` is on PyPI, take it from its repository; once it is, pip finds it on its own
+      - name: Reelspan client
+        run: pip install reelspan || pip install "git+https://github.com/Reelspan/reelspan-python"
+      - run: pip install -e ".[test]"
+      - run: pytest -q
