@@ -2,7 +2,7 @@
 
 [Hugging Face smolagents](https://github.com/huggingface/smolagents) tools for [Reelspan](https://reelspan.com). Let a
 `CodeAgent` or `ToolCallingAgent` publish videos, photos and text to TikTok, YouTube, Instagram, Facebook, X, Threads,
-LinkedIn, Pinterest, Bluesky, Reddit and 12 more networks, check each network's result and read analytics.
+LinkedIn, Pinterest, Bluesky, Reddit and more, check each network's result and read analytics.
 
 ```bash
 pip install reelspan-smolagents

@@ -1,4 +1,4 @@
-"""Hugging Face smolagents tools for Reelspan: let an agent publish to 22 social networks.
+"""Hugging Face smolagents tools for Reelspan: let an agent publish to every major social network.
 
 >>> from smolagents import CodeAgent, InferenceClientModel
 >>> from reelspan_smolagents import reelspan_tools

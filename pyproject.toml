@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "reelspan-smolagents"
 dynamic = ["version"]
-description = "Hugging Face smolagents tools for Reelspan: let an agent publish videos, photos and text to TikTok, YouTube, Instagram, X, LinkedIn and 17 more networks."
+description = "Hugging Face smolagents tools for Reelspan: let an agent publish videos, photos and text to TikTok, YouTube, Instagram, X, LinkedIn and more."
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
