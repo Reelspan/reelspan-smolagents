@@ -15,7 +15,7 @@ from typing import Any, Dict, Iterator, List, Optional, Sequence
 from reelspan import Reelspan, ReelspanError
 from smolagents import Tool
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 PLATFORMS = (
     "tiktok", "youtube", "instagram", "facebook", "x", "threads", "linkedin", "pinterest", "bluesky", "reddit",
