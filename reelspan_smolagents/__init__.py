@@ -19,7 +19,7 @@ __version__ = "0.1.0"
 
 PLATFORMS = (
     "tiktok", "youtube", "instagram", "facebook", "x", "threads", "linkedin", "pinterest", "bluesky", "reddit",
-    "google_business", "telegram", "discord", "slack", "mastodon", "lemmy", "devto", "hashnode",
+    "google_business", "telegram", "discord", "slack", "mastodon", "devto", "hashnode",
     "wordpress", "sandbox",
 )
 MCP_URL = "https://api.reelspan.com/mcp"
